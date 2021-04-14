@@ -1,0 +1,28 @@
+{
+  "name": "10-asincronismo",
+  "version": "1.0.0",
+  "description": "Trabajar con asincronismo en javascript",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiagortiiz/Asincronismo-con-JavaScript.git"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "Santiago Ortiz Ceballos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santiagortiiz/Asincronismo-con-JavaScript/issues"
+  },
+  "homepage": "https://github.com/santiagortiiz/Asincronismo-con-JavaScript#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
