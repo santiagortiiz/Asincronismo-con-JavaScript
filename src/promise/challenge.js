@@ -1,6 +1,7 @@
 const fetchData = require("../utils/fetchData")
 const API = 'https://rickandmortyapi.com/api/character/'
 
+/* Requiere ser compilado con un "polify" como "bavel" para que el navegador lo interprete */
 fetchData(API)                                              /* Llamado promesa 1 */
     .then(data => {                                         // Promesa 1 ejecutada
         console.log(data.info.count)
